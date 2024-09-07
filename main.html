@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Deletion Instructions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #4caf50, #2196f3);
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* White Transparent */
+            border-radius: 15px;
+            padding: 40px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 2s ease-out;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        p, li {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 15px 0;
+        }
+        ul {
+            text-align: left;
+        }
+        a {
+            color: #007BFF;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #00e676;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            color: #fff;
+            transition: transform 0.3s ease;
+            margin-right: 10px;
+            width: 100px;
+            text-align: center;
+        }
+        .button:hover {
+            transform: translateY(-5px);
+        }
+        .button-row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p, li {
+                font-size: 1rem;
+            }
+            .button {
+                width: 80px;
+                padding: 15px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Deletion Instructions</h1>
+        <p>This app is part of a school project for <a href="https://www.softinsa.pt/" target="_blank">Softinsa</a>, which will be completed soon. During this time, we are committed to protecting your data.</p>
+        <p>If you would like to delete your account or any personal data associated with this app, please follow these steps:</p>
+        <ul>
+            <li>Send an email to <a href="mailto:[a.marcelo.dr21@gamil.com]">[a.marcelo.dr21@gmail.com]</a>.</li>
+            <li>Include your username and a request to delete your data.</li>
+        </ul>
+        <p>We will process your request within 7 days. After the project is completed, all data will be deleted automatically.</p>
+
+        <!-- New Buttons -->
+        <div class="button-row">
+            <a href="https://www.estgv.ipv.pt" target="_blank" class="button">ESTGV</a>
+            <a href="https://www.di.estgv.ipv.pt/Dep/di/web/" target="_blank" class="button">ESTGV DI</a>
+            <a href="https://www.softinsa.pt/" target="_blank" class="button">Softinsa</a>
+        </div>
+    </div>
+</body>
+</html>
